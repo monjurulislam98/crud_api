@@ -1,0 +1,55 @@
+1.addupdate:
+   url:https://localhost:7288/api/category/addupdate
+   data:{
+    "Id":0,
+    "Name":"Category4"
+}
+   response: {
+    "statusCode": 1,
+    "message": "Saved Successfully"
+}
+
+2. getall : https://localhost:7288/api/category/getall
+
+3.Delete : 
+     url:https://localhost:7288/api/category/delete/3
+     res:{
+    "statusCode": 1,
+    "message": "Deletd Successfully"
+}
+
+4.Getbyid :
+      url:https://localhost:7288/api/category/getbyid/3
+      response:{
+    "id": 3,
+    "name": "Category15"
+}
+
+.....................................
+
+product apis 
+
+1.addupdate
+      url:https://localhost:7288/api/product/addupdate
+      req:{
+    "Id":8,
+    "Name":"Product2",
+    "categoryId":2,
+    "price":300
+}
+      res:{
+    "statusCode": 1,
+    "message": "Saved Successfully"
+}
+2.getbyid
+       url:https://localhost:7288/api/product/getbyid/1
+      req:
+      res:
+3.delete
+       url:https://localhost:7288/api/product/delete/1
+      req:
+      res:
+4.getall
+      url:https://localhost:7288/api/product/getall
+      req:
+      res:
